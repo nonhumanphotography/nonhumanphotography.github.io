@@ -1,0 +1,11 @@
+
+.scriptor-ra-bar{position:fixed;bottom:16px;right:16px;z-index:2147483000;display:flex;gap:6px;align-items:center;background:#064e3b;color:#f5f0e0;padding:8px 10px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.25);font:500 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.scriptor-ra-bar button{appearance:none;border:0;background:transparent;color:inherit;padding:4px 10px;border-radius:999px;cursor:pointer;font:inherit;display:inline-flex;align-items:center;gap:4px}
+.scriptor-ra-bar button:hover{background:rgba(255,255,255,.12)}
+.scriptor-ra-bar button[disabled]{opacity:.45;cursor:not-allowed}
+.scriptor-ra-bar button.primary{background:#c9a84c;color:#064e3b}
+.scriptor-ra-bar button.primary:hover{background:#d8b968}
+.scriptor-ra-bar select{background:rgba(0,0,0,.2);color:inherit;border:1px solid rgba(255,255,255,.15);border-radius:999px;padding:2px 8px;font:inherit;max-width:180px}
+.scriptor-ra-highlight{background:rgba(201,168,76,.35);border-radius:3px;box-shadow:0 0 0 3px rgba(201,168,76,.35);transition:background .15s}
+.scriptor-ra-readable{cursor:pointer}
+@media print{.scriptor-ra-bar{display:none}}
